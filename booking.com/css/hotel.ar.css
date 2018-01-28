@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.hotel{
+	padding: 50px 0;
+}
+.hotel .list-unstyled{
+	padding-right: 0;
+}
+.hotel ul li.media{
+	border: 1px solid #eee;
+	margin-bottom: 10px;
+}
+.hotel .image{
+	height: 30%;
+	width:  32%;
+	align-self: center;
+}
+.hotel h5>i{
+	color: #febb02;
+}
+.hotel p:last-child{
+	font-size: 14px;
+	padding-left: 1rem;
+}

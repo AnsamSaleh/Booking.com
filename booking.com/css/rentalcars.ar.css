@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+.discover-form{
+	padding: 20px;
+	background-color: #febb02;
+	box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+}
+.company{
+	padding: 50px 0;
+}
+.question{
+	padding: 50px 0;
+}
+.question .question-content{
+	padding: 20px;
+}
+.question .question-content .item{
+	margin-bottom: 25px;
+}

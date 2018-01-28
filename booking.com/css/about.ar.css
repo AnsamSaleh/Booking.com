@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about{
+	padding: 50px 0;
+	word-wrap: break-word;
+}
+.about span{
+	color: #8e8e8e;
+}
+.about .currency i{
+	color: green;
+}

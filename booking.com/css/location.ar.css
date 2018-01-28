@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.location{
+	padding: 50px 0;
+}
+.location .location-content{
+	padding: 20px;
+	background-color: #febb02;
+	box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+}
+.location a{
+	color: #fff;
+}
+.choice{
+	background-color: #f7f7f7;
+	padding: 50px 0;
+}
+.choice img{
+	height: 308px;
+    width: 100%;
+}
+.join{
+	padding: 50px 0;
+}
+.join i{
+	color: rgb(0, 117, 202);
+}
+.join h4{
+	margin-top: 25px;
+	margin-bottom: 10px;
+}

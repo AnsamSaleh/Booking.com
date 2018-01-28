@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.countries{
+	padding: 50px 0;
+}
+.countries .country{
+	background-color: #e9f0fa;
+	position: relative;
+	background-size: cover;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.countries .country .img-thumbnail{
+	padding: 1rem;
+}
+.countries .country .img-overlay{
+	background-color: rgba(0,0,0,.3);
+	min-height: 140px;
+	color: #fff;
+	font-size: 18px;
+	z-index: 300;
+}
+.countries .country .img-overlay a{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 22px;
+}
+.countries .country a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}

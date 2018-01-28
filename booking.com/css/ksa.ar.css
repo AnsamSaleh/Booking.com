@@ -1,0 +1,164 @@
+@charset "utf-8";
+/* CSS Document */
+.sa{
+	background-size: cover;
+	background-position: center;
+}
+.sa .over{
+	background-color: rgba(0,0,0,.1);
+	min-height: 440px;
+	z-index: 300;
+}
+.sa .h1{
+	font-size: 60px;
+	color: #fff;
+}
+.sa .sa-content{
+	margin: 50px 0;
+	padding: 20px;
+	box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+	background-color: #febb02;
+	border-radius: 3px;
+}
+.sa .sa-content .sa-form{
+}
+.sa .sa-content .sa-form{
+	background-color: #febb02;
+	border-radius: 3px;
+	padding: 20px;
+}
+.sa .sa-content .sa-form p{
+	font-size: 14px;
+}
+.sa .sa-content .sa-form .form-row{
+	padding-bottom: 10px;
+}
+.sa .sa-content .sa-form .input-group-addon{
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	border-left: 0;
+	border-radius: 0
+}
+.sa .sa-content .sa-form .input-group .form-control:not(:first-child){
+	border-right: 0;
+	border-radius: 0;
+}
+.sa .sa-content .sa-form .col-md-4{
+	padding-bottom: 10px;
+}
+.sa .sa-content .sa-form .search{
+	padding-top: 20px;
+}
+.sa .sa-content .sa-form .search .form-row{
+	padding-bottom: 0;
+}
+.sa .sa-content .sa-form .search button{
+	background-color: #07c;
+}
+.cities{
+	padding: 50px 0;
+}
+.cities .city{
+	background-color: #e9f0fa;
+	position: relative;
+	background-size: cover;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.cities .city .img-thumbnail{
+	padding: 1rem;
+}
+.cities .city .img-overlay{
+	background-color: rgba(0,0,0,.3);
+	min-height: 140px;
+	color: #fff;
+	font-size: 18px;
+	z-index: 300;
+}
+.cities .city .img-overlay a{
+	color: #FFF;
+	font-weight: bold;
+	font-size: 22px;
+}
+.cities .city a:hover{
+	text-decoration: none;
+	cursor: pointer;
+}
+.hotel{
+	padding: 50px 0;
+}
+.hotel .card{
+	border: none;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+.hotel .card .card-img-top{
+	height: 247px;
+}
+.hotel .card .card-border{
+	border: 1px solid rgba(0, 0, 0, 0.125);
+	border-radius: 0.25rem;
+}
+.hotel .card-body a{
+	text-decoration: none;
+	color: #333;
+	font-size: 1.5rem;
+}
+.hotel .card-body a:hover{
+	text-decoration: none;
+	color: #febb02;
+}
+.hotel .card-body p:first-of-type {
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+}
+.hotel .card-text i{
+	color: gold
+}
+.airport{
+	background-color: #f3f3f3;
+	padding: 50px 0;
+}
+.airport ul{
+	padding: 0;
+}
+.airport li{
+	padding: .5rem 1rem;
+	text-align: center;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+.about{
+	background-color: #f3f3f3;
+	padding: 50px 0;
+}
+.testimonials{
+	position: relative;
+	background-image: url(../images/background.jpg);
+	color: white;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	background-attachment: fixed;
+	background-position: bottom;
+	background-size: cover;
+}
+.testimonials .overLay{
+	position: absolute;
+	width: 100%;
+	min-height: 300px;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.5);
+	z-index: 2;
+}
+.testimonials .carousel-item{
+	width: 70%;
+	margin: 7% auto;
+}
+.testimonials .carousel-item p{
+	margin-top: 40px;
+}
+.best{
+	padding: 50px 0;
+	background-color: #f3f3f3;
+}

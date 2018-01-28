@@ -1,0 +1,11 @@
+.login{
+	padding: 50px 0;
+}
+.login .login-content{
+	padding: 20px;
+	background-color: #febb02;
+	box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+}
+.login a{
+	color: #fff;
+}

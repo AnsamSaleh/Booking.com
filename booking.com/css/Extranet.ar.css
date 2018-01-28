@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+.extranet{
+	padding: 50px 0;
+}
+.extranet .extranet-content{
+	padding: 20px;
+	background-color: #febb02;
+	box-shadow: 1px 1px 20px rgba(0,0,0,.5);
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.extranet .extranet-content a,
+.extranet .extranet-content a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.security{
+	padding: 50px 0;
+	background-color: #f3f3f3;
+}
